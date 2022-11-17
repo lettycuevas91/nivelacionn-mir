@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form class="formulario" action="#" method="post">
+      <h1>Login</h1>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="correo" id="correo"  class="campo" />
+      </div>
+      <div>
+        <label for="contraseña">Contraseña</label>
+        <input
+          type="password"
+          name="contraseña"
+          id="contraseña"
+          class="campo"
+        />
+      </div>
+      <div>
+        <label for="genero">Género</label>
+        <select name="genero" class="campo">
+          <option value="mujer">Mujer</option>
+          <option value="hombre">Hombre</option>
+        </select>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="terminos" value="Acepto los terminos" />
+          Acepto los términos
+        </label>
+      </div>
+      <div>
+        <button type="button" id="boton">Ingresar</button>
+      </div>
+    </form>
+  </body>
+</html>
